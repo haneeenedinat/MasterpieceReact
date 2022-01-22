@@ -1,0 +1,34 @@
+.OurFeatured .Featuredh2 h2 {
+  text-align: center;
+  margin: 3em 0;
+}
+
+.OurFeatured {
+  margin: 3em 0;
+}
+
+.Featured {
+  display: flex;
+  justify-content: center;
+}
+
+.FeaturedBeneficiaries {
+  border: 1px solid gray;
+  box-shadow: 1px 1px 22px rgba(85, 84, 84, 0.11);
+  border-radius: 100%;
+  padding: 2em;
+  margin-right: 1em;
+  width: 17%;
+  height: 21vh;
+}
+
+.FeaturedVolunteers {
+  border: 1px solid gray;
+  box-shadow: 1px 1px 22px rgba(85, 84, 84, 0.11);
+  border-radius: 100%;
+  padding: 2em;
+  margin-right: 1em;
+  width: 17%;
+  height: 21vh;
+
+}
