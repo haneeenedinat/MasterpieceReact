@@ -1,0 +1,87 @@
+.LoginContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 1em auto;
+    padding: 1em;
+    background-color: black;
+    border: 1px white solid;
+    border-radius: 1em;
+}
+
+
+
+.LoginContainer h3{
+    margin: 1em auto;
+}
+
+.LoginContainer form{
+    display: flex;
+    flex-direction: column;  
+}
+
+.LoginContainer form a{
+    text-decoration: none;
+    color:black;
+}
+
+.LoginContainer form input{
+   line-height: 2;
+   margin: 1em auto;
+   padding: 0.5em;
+   border:none;
+   border-radius: 1em;
+   width: 70%;
+}
+
+.LoginContainer form button{
+    padding: 1em;
+    margin: 1em auto;
+    font-size: 1em;
+    border: 1px black solid;
+    border-radius: 1em;
+    color:white;
+    background:black;
+}
+
+.LoginContainer form a{
+    margin: 0 auto;
+    font-weight: 600;
+    
+}
+
+.LoginContainer strong{
+    margin:  1em auto;
+    color:red;
+}
+
+
+
+@media (max-width:768px) {
+    .LoginContainer {
+        width: 70%;
+    }  
+}
+
+@media (max-width:600px) {
+    .LoginContainer {
+        width: 80%;
+    }  
+}
+
+@media (max-width:426px) {
+    .LoginContainer {
+        width: 90%;
+    }
+    
+    .LoginContainer form input{
+        width: 90%;
+       
+       
+     }
+
+     .LoginContainer form a{
+     /* text-align: center; */
+        
+    }
+}

@@ -1,0 +1,22 @@
+.BackgroundImg{
+    min-height: 60vh;
+    border:1px solid #dbe0e6;
+    margin: 2em 0;
+
+   
+}
+
+@media (max-width:768px) {
+    .BackgroundImg{
+        min-height: 30vh;
+       
+    }
+    
+}
+
+@media (max-width:425px) {
+    .BackgroundImg{
+        min-height: 20vh;
+       
+    } 
+}

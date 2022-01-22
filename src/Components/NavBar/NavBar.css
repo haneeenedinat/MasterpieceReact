@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Nunito&family=Open+Sans&family=Roboto&display=swap');
+
+.Navbar{
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 1em ;
+ box-shadow:1px 1px 10px #333333; 
+ position:sticky;
+ top:0;
+ padding: 0.2em 0;
+ background-color: white;
+}
+
+.Navbar h1{
+ font-family:'Dancing Script', cursive;
+ margin-right: 0.7em;
+ margin-left: 0.7em;
+ margin-top: 0.5em;
+}
+
+.Navbar ul{
+      list-style-type: none;  
+}
+
+.Navbar .NavbarList .ulList{
+  display: flex;
+}
+
+.Navbar .NavbarList .ulList li{
+ margin-right: 0.8em;
+ margin-top: 2em;
+ font-weight: 600;
+}
+
+.Navbar .NavbarList .ulList li a{
+ text-decoration: none;
+ color:black;
+ }
+
+.Navbar .NavbarList button{
+ background:#b6c1ce;
+ color: white;
+ border: 1px solid #b6c1ce;
+ width: 100px;
+ border-radius: 3px;
+ font-size: 1.1em;
+ font-weight: 600;
+ padding: 0.1em;
+ cursor: pointer;
+}
+
+.Navbar .NavbarList button:hover{
+  background-color: white;
+  color:black;
+  box-shadow:1px 1px 6px #333333; 
+  transition: 0.9s ease;
+}
+
+.Menu  .ulListMenu{
+  display: none;  
+}   
+
+.Menu  i{
+  display: none
+} 
+
+
+@media (max-width:700px) {
+
+  .Navbar{
+    flex-direction: row-reverse;
+  }
+
+
+  
+
+ .Navbar .NavbarList .ulList > .NavbarListLi{
+ display: none;                         
+}
+
+.Menu  i{
+      display: flex;
+      position: absolute;
+      top: 1em;
+      left: 1em;
+      margin: 0 auto;
+      font-size: 1.5em;
+ } 
+
+ .Menu  .NavbarListMenu  {
+     display: flex;
+     flex-direction: column;  
+     padding: 2em;
+     margin: 0 auto;
+ }
+
+ .Menu{
+       padding: 0.5em;  
+ }
+
+ .Navbar .NavbarList button{
+      font-weight: 600;
+     }
+}

@@ -1,0 +1,47 @@
+.WeProvide {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+
+.WeProvide .WeProvideH2 {
+  margin: 1em auto;
+}
+
+.WeProvidep {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.WeProvidep p {
+  width: 50%;
+  text-align: center;
+}
+
+.WeProvidep {
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .WeProvidep p {
+    width: 60%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 551px) {
+  .WeProvidep {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .WeProvidep img {
+    width: 40vw;
+  }
+
+  .WeProvidep p {
+    width: 90%;
+    text-align: center;
+  }
+}
