@@ -5,6 +5,7 @@ import LoginPage from "./page/LoginPage";
 import RegisterPage from "./page/RegisterPage";
 import HomePage from "./page/HomePage";
 import ContactUsPage from "./page/ContactUsPage";
+import DonorsPage from "./page/DonorsPage";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Route path={'/RegisterPage'} element={<RegisterPage/>}/>
       <Route path={'/LoginPage'} element={<LoginPage/>}/>
       <Route path={'/ContactUsPage'} element={<ContactUsPage/>}/>
+      <Route path={'/DonorsPage'} element={<DonorsPage/>}/>
     </Routes>
     <Footer/>
     </div>

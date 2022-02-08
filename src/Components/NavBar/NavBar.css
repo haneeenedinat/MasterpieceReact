@@ -18,6 +18,13 @@
  margin-top: 0.5em;
 }
 
+.Navbar h1 a{
+  text-decoration: none;
+  color:black;
+ font-family:'Dancing Script', cursive;
+
+}
+
 .Navbar ul{
       list-style-type: none;  
 }

@@ -62,7 +62,7 @@
   
       .Footer .FooterSocialMedia ul li , .FooterpageLink ul li ,.FooterContactUs ul li ,.FooterSocialMedia h3{
        display: flex; 
-       margin-left: 1em;
+       margin-left: 0.1em;
      }
 
      .Footer .FooterSocialMedia ul li a{

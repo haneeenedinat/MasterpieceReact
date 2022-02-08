@@ -10,25 +10,45 @@
 .Featured {
   display: flex;
   justify-content: center;
+
 }
 
 .FeaturedBeneficiaries {
   border: 1px solid gray;
   box-shadow: 1px 1px 22px rgba(85, 84, 84, 0.11);
-  border-radius: 100%;
   padding: 2em;
   margin-right: 1em;
-  width: 17%;
-  height: 21vh;
+  border-radius: 4px;
+  width:35%;
+
 }
 
 .FeaturedVolunteers {
   border: 1px solid gray;
   box-shadow: 1px 1px 22px rgba(85, 84, 84, 0.11);
-  border-radius: 100%;
   padding: 2em;
-  margin-right: 1em;
-  width: 17%;
-  height: 21vh;
+  width: 35%;
+  border-radius: 4px;
+  
 
+}
+
+
+@media (max-width:881px) {
+.FeaturedVolunteers,.FeaturedBeneficiaries  {
+    width:45%
+}
+}
+
+@media (max-width:468px) {
+    .Featured {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .FeaturedVolunteers,.FeaturedBeneficiaries {
+        margin: 1em 0;
+        width:90%;
+    }
 }

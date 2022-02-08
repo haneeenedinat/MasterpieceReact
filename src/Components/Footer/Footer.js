@@ -12,9 +12,8 @@ export default function Footer (){
             <ul>
             <li><h3>Page links</h3></li>
             <li><Link to={"/"}>Home</Link></li>
-            <li>Volunteers</li>
-            <li>Donors</li>
-            <li>needy</li>
+            <li><Link to={"./DonorsPage"}>Donors</Link></li>
+            <li>Beneficiaries</li>
             </ul>
          </div>
 

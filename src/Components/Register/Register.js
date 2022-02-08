@@ -131,15 +131,15 @@ export default function Register() {
           }}
         />
         <p>{MessageConfirmPassword}</p>
-        <input
+        {/* <input
           type="tel"
           name="Number"
           placeholder="Phone Number"
           onChange={(e) => {
             setNumber(e.target.value);
           }}
-        />
-        <p>{MessageNumber}</p>
+        /> */}
+        {/* <p>{MessageNumber}</p>
         <input
           type="text"
           name="Address"
@@ -147,7 +147,7 @@ export default function Register() {
           onChange={(e) => {
             setAddress(e.target.value);
           }}
-        />
+        /> */}
 
         <Link to={"/LoginPage"}>You Have An Account ?Login</Link>
         <button type="submit">Register</button>

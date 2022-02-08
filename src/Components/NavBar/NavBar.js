@@ -30,7 +30,7 @@ export default function NavBar() {
   return (
     <div className="Navbar">
       <div className="NavbarImg">
-        <h1>Donate</h1>
+        <h1><Link to={"/"}>Donate</Link></h1>
       </div>
 
       {UserLogin ? (
@@ -39,8 +39,7 @@ export default function NavBar() {
             <li className="NavbarListLi">
               <Link to={"/"}>Home </Link>
             </li>
-            <li className="NavbarListLi">Volunteers</li>
-            <li className="NavbarListLi">Donors</li>
+            <li className="NavbarListLi"><Link to={"./DonorsPage"}>Donate</Link></li>
             <li className="NavbarListLi">Beneficiaries</li>
             <li className="NavbarListLi"><Link to={"ContactUsPage"}>ContactUs</Link></li>
             <li className="NavbarListLi">
@@ -55,8 +54,7 @@ export default function NavBar() {
                   <li>
                     <Link to={"/"}>Home </Link>
                   </li>
-                  <li>Volunteers</li>
-                  <li>Donors</li>
+                  <li><Link to={"./DonorsPage"}>Donate</Link></li>
                   <li>Beneficiaries</li>
                   <li><Link to={"ContactUsPage"}>ContactUs</Link></li>
 
@@ -74,8 +72,7 @@ export default function NavBar() {
             <li className="NavbarListLi">
               <Link to={"/"}>Home </Link>
             </li>
-            <li className="NavbarListLi">Volunteers</li>
-            <li className="NavbarListLi">Donors</li>
+            <li className="NavbarListLi"><Link to={"./DonorsPage"}>Donate</Link></li>
             <li className="NavbarListLi">Beneficiaries</li>
             <li className="NavbarListLi"><Link to={"ContactUsPage"}>ContactUs</Link></li>
 
@@ -89,9 +86,8 @@ export default function NavBar() {
 
               <ul className={NavbarListMenu}>
                 <div>
-                  <li>Home</li>
-                  <li>Volunteers</li>
-                  <li>Donors</li>
+                  <li><Link to={"/"}>Home </Link></li>
+                  <li><Link to={"./DonorsPage"}>Donate</Link></li>
                   <li>Beneficiaries</li>
                   <li><Link to={"ContactUsPage"}>ContactUs</Link></li>
 
